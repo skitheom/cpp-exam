@@ -1,7 +1,9 @@
-NAME		:= warlock00
+NAME		:= warlock02
 CXX			:= c++
 CXXFLAGS	:= -Wall -Wextra -Werror -std=c++11
-SRCS		:= Warlock.cpp main.cpp
+SRCS		:= ASpell.cpp BrickWall.cpp Fireball.cpp Polymorph.cpp \
+			   TargetGenerator.cpp main.cpp ATarget.cpp Dummy.cpp \
+			   Fwoosh.cpp SpellBook.cpp Warlock.cpp
 OBJS		:= $(SRCS:.cpp=.o)
 
 all: $(NAME)

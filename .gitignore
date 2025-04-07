@@ -34,3 +34,4 @@
 # Others
 subject.en.txt
 *.txt
+!expected_output.txt
