@@ -29,5 +29,6 @@ run: $(NAME)
 test: $(NAME)
 	./$(NAME) | cat -e > output.txt
 	diff -u expected_output.txt output.txt && echo "OK" || echo "KO"
+	rm output.txt
 
 .PHONY: all clean fclean re run test
