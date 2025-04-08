@@ -1,4 +1,4 @@
-# exam-05
+# cpp-exam
 42 exam prep
 
 ## cpp module 00
